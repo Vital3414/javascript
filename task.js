@@ -194,22 +194,30 @@
 
 //! ====================================================
 
-class User {
-    static sta = {
-        admin: "ADMIN",
-        user: "USER",
-    };
+// class User {
+//     static sta = {
+//         admin: "ADMIN",
+//         user: "USER",
+//     };
 
-    #private;
+//     #private;
 
-    constructor({ name, status }) {
-        this.name = name;
-        this.status = status;
-        this.#private = "This is a private field";
-    }
-}
+//     constructor({ name, status }) {
+//         this.name = name;
+//         this.status = status;
+//         this.#private = "This is a private field";
+//     }
+// }
 
-const admin = new User({ name: "Alex", status: User.sta.admin });
-const user = new User({ name: "Oleg", status: User.sta.user });
-console.log(admin)
-console.log(user)
+// const admin = new User({ name: "Alex", status: User.sta.admin });
+// const user = new User({ name: "Oleg", status: User.sta.user });
+// console.log(admin)
+// console.log(user)
+
+// const output = document.querySelector(".output");
+// let scrollEventCounter = 0;
+
+// document.addEventListener("scroll", () => {
+//   scrollEventCounter += 1;
+//   output.textContent = scrollEventCounter;
+// });
